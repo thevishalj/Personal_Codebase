@@ -3,5 +3,6 @@ public class Everyday_Logs {
         System.out.println("Lets do 30 days of code challenge");
         System.out.println("On 23rd Jan, I Revised SQL and practiced on HackerRank");
         System.out.println("On 24th Jan, I practiced SQL on HackerRank");
+        System.out.println("On 25th Jan, I revised both Java & SQL and practiced both on HackerRank");
     }
 }

@@ -2,7 +2,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class Map_Java {
-    public static void main (String a[]){
+    public static void main(String[] args){
         Map<String, Integer> Emp = new HashMap<>();
 
         Emp.put("Vishal", 10);

@@ -24,7 +24,7 @@ class B implements Runnable {
     }
 }
 public class Threads {
-    public static void main(String a[]){
+    public static void main(String[] args){
         A obj1 = new A();
         B obj2 = new B();
 

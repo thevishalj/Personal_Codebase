@@ -20,11 +20,13 @@ class Task2 implements Callable<String> {    //it will return some string value 
 }
 public class CallableTask {
     public static void main(String[] args) throws ExecutionException, InterruptedException {
-        ExecutorService threadpool = Executors.newFixedThreadPool(2);
+        ExecutorService threadPool = Executors.newFixedThreadPool(2);
 
-        Future<String> WFuture = threadpool.submit(new Task2("Vishal"));
+        Future<String> WFuture = threadPool.submit(new Task2("Vishal"));
 
         String value = WFuture.get();
+
+        threadPool.shutdown();
 
         System.out.println("\n" + value + "\nThread completed");
     }

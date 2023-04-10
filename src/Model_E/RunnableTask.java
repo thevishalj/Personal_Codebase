@@ -47,6 +47,6 @@ public class RunnableTask {
         countDownLatch.await();
         threadPool.shutdown();
 
-        System.out.println("All Concepts.Threads Completed");
+        System.out.println("All Threads Completed");
     }
 }

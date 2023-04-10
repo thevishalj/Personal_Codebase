@@ -1,4 +1,4 @@
-package Model_E;
+package ThreadingConcept;
 
 import java.util.concurrent.ExecutionException;
 import java.util.concurrent.Executors;

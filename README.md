@@ -10,6 +10,6 @@ Logs:
 3. On 25th Jan, I revised both Java & SQL and practiced both on HackerRank
 4. On 5th Apr, I have learnt threads for Model E story.
 5. On 6th Apr, I have learnt types of threads, lambda, Map, ExcecutorService.
-6. On 10th Apr, I have learnt differences between Runnable and Callable Task, Future Object, 
+6. On 10th Apr, I have learnt differences between Runnable and Callable Task, Future Object, CountDownLatch.
 
 By - Vishal Jain

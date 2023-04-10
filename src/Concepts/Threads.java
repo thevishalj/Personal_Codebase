@@ -1,8 +1,8 @@
-package Model_E;
+package Concepts;
 
-public class ThreadsExample {
+public class Threads {
     public static void main(String[] args){
-        Runnable obj1 = () ->                       // we can only implement lamda on functional Interfaces
+        Runnable obj1 = () ->                       // we can only implement lambada on functional Interfaces
         {
             for(int i=0; i<=10; i++){
                 System.out.println("Hi");

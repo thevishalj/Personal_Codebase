@@ -1,9 +1,13 @@
 package Model_E;
 
-import java.util.concurrent.*;
+import java.util.concurrent.ExecutionException;
+import java.util.concurrent.Executors;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Callable;
+import java.util.concurrent.Future;
 
 class Task2 implements Callable<String> {    //it will return some string value back
-    private String name;
+    private final String name;
 
     public Task2 (String name){
         this.name = name;

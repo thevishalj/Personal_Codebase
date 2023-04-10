@@ -1,4 +1,6 @@
-public class Threads {
+package Model_E;
+
+public class ThreadsExample {
     public static void main(String[] args){
         Runnable obj1 = () ->                       // we can only implement lamda on functional Interfaces
         {

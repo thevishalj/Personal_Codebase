@@ -1,7 +1,7 @@
 import java.util.HashMap;
 import java.util.Map;
 
-public class Map_Java {
+public class JavaMap {
     public static void main(String[] args){
         Map<String, Integer> Emp = new HashMap<>();
 

@@ -6,13 +6,13 @@ import java.util.concurrent.Executors;
 
 public class ModelE_Service {
     public static void main(String[] args) throws InterruptedException {
-        int models = 5;
-        ExecutorService threadPool = Executors.newFixedThreadPool(2);
-        CountDownLatch latch = new CountDownLatch(models);
+        int threadCount = 10;
+        ExecutorService threadPool = Executors.newFixedThreadPool(4);
+        CountDownLatch latch = new CountDownLatch(threadCount);
 
         try {
-            for(int i=1; i<=models; i++){
-                threadPool.submit(new ModelE_Task(i, latch, 5));
+            for(int i=1; i<=threadCount; i++){
+                threadPool.submit(new ModelE_Task(i, latch, 2));
             }
         } catch (final Exception e) {
             throw new RuntimeException(e);

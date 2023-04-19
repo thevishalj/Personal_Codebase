@@ -20,7 +20,7 @@ class ModelE_Task implements Callable {
         System.out.println("Thread no. " + number + " Started");
 
         try {
-            for (int i = 0; i <= number; i++) {
+            for (int i = 1; i <= number; i++) {
                 System.out.println("Task " + number + "." + i + " running");
             }
             TimeUnit.SECONDS.sleep(waitTime);
@@ -29,6 +29,7 @@ class ModelE_Task implements Callable {
         }
 
         System.out.println("Thread no. " + number + " Completed");
+
         countDownLatch.countDown();
         return null;
     }
